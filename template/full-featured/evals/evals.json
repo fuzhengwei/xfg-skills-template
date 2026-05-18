@@ -1,0 +1,27 @@
+{
+  "skill_name": "full-featured",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我验证 data/input.json 文件的格式是否正确",
+      "expected_output": "运行验证脚本并返回验证结果",
+      "files": [],
+      "assertions": [
+        "执行了验证脚本",
+        "返回了验证结果（valid 或 error）",
+        "结果为 JSON 格式"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "处理 data/records.json 文件并生成报告",
+      "expected_output": "运行处理脚本并生成结构化输出",
+      "files": [],
+      "assertions": [
+        "执行了处理脚本",
+        "输出了处理结果",
+        "包含 records_processed 字段"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+# 配置模板
+# 复制此文件并根据需要修改
+
+# 输入配置
+input:
+  encoding: utf-8
+  format: json
+  max_size_mb: 100
+
+# 处理配置
+processing:
+  batch_size: 100
+  max_retries: 3
+  timeout_seconds: 300
+
+# 输出配置
+output:
+  format: json
+  pretty_print: true
+  limit: 1000
+
+# 日志配置
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
