@@ -36,7 +36,8 @@ cp -r xfg-skills-template ~/.qclaw/skills/         # OpenClaw
 cp -r xfg-skills-template ~/.codex/skills/         # OpenAI Codex
 ```
 
-安装后重启 Agent，即可使用。
+- 安装后重启 Agent，即可使用。
+- [walicode](https://walicode.xiaofuge.cn/) 在设置中，添加技能，可以直接拉取 git 地址，配置即可。
 
 ## 使用方法
 
